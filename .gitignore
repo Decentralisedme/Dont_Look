@@ -1,1 +1,21 @@
+# Node modules (working)
+node_modules/
+**/node_modules/
+
+# Environment files (fix)
+.env
+eliza-starter/.env
+**/env
+
+# Database (fix)
+db.sqlite
+eliza-starter/data/db.sqlite
+**/db.sqlite
+
+# Build directories
+dist/
+build/
+
+# macOS files
 .DS_Store
+**/.DS_Store
